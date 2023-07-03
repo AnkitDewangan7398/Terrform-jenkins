@@ -14,7 +14,7 @@ provider "aws" {
 
 
 
-resource "aws_instance" "web-server" {
+resource "aws_instance" "new-server" {
   ami = "${var.ami}"
   instance_type = "${var.instance_type}"
   availability_zone = "${var.availability_zone}"
