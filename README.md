@@ -13,8 +13,8 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Instruction
 
-Please check this Medium article : https://medium.com/@lockdown2k17/infrastructure-automation-with-terraform-and-aws-a2c75880c373
+
 
 ### Support
 
-Please write to hello@arshadzackeriya.com and i would happy to help.
+Please write to ankitkumardewangan7.com and i would happy to help.
