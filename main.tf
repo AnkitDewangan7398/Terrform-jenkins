@@ -7,6 +7,11 @@ provider "aws" {
 
   region     = var.region
   
+<<<<<<< HEAD
+=======
+  region = "${var.region}"
+  
+>>>>>>> c489397d04d55c3f2abcc0221626cb8d5afc3fbb
   #shared_credentials_file = "${var.shared_credentials_file}"
   #profile = "${var.profile}"
 }
@@ -37,6 +42,12 @@ resource "aws_instance" "new-server" {
 //module "key_pair" {
 // source = "terraform-aws-modules/key-pair/aws"
 
+<<<<<<< HEAD
 // key_name           = "testing"
 // create_private_key = true
 //}
+=======
+ // key_name           = "testing"
+ // create_private_key = true
+//}
+>>>>>>> c489397d04d55c3f2abcc0221626cb8d5afc3fbb
