@@ -5,13 +5,10 @@
 
 provider "aws" {
 
-  region     = var.region
   
-<<<<<<< HEAD
-=======
+  
   region = "${var.region}"
   
->>>>>>> c489397d04d55c3f2abcc0221626cb8d5afc3fbb
   #shared_credentials_file = "${var.shared_credentials_file}"
   #profile = "${var.profile}"
 }
