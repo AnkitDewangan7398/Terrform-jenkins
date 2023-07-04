@@ -5,7 +5,7 @@
 ########################
 
 variable "region" {
-    default = "us-east-1"
+  default = "us-east-1"
 
 }
 
@@ -27,7 +27,7 @@ variable "instance_type" {
 }
 
 variable "availability_zone" {
-  default = "us-east-1b"
+  default = "us-east-1a"
 }
 
 variable "vpc_rds_security_group_id" {
@@ -39,7 +39,7 @@ variable "vpc_rds_security_group_id" {
 }
 
 variable "subnet_id" {
-  
+
   default = "subnet-02396de8df752a0c2"
 }
 
@@ -52,5 +52,5 @@ variable "volume_size" {
 }
 
 variable "server_name" {
-  default = "web-server"
+  default = "new-server"
 }
