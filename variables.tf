@@ -27,7 +27,7 @@ variable "instance_type" {
 }
 
 variable "availability_zone" {
-  default = "us-east-1a"
+  default = "us-east-1b"
 }
 
 variable "vpc_rds_security_group_id" {
