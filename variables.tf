@@ -23,7 +23,7 @@ variable "ami" {
 }
 
 variable "instance_type" {
-  type = string
+  type = t2.micro
 }
 
 variable "availability_zone" {
