@@ -52,5 +52,5 @@ variable "volume_size" {
 }
 
 variable "server_name" {
-  default = "web-server"
+  default = "new server"
 }

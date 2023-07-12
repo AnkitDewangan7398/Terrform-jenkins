@@ -7,5 +7,6 @@
 ## Print the outputs
 ########################
 output "public_ip" {
-  value = "${aws_instance.web-server.public_ip}"
+  
+  value = "${aws_instance.new-server.*.public_ip}"
 }

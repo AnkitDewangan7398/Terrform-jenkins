@@ -6,15 +6,15 @@
 provider "aws" {
   
   region = "${var.region}"
-  access_key = "AKIARZYHMUYGTT44THA5"
-  secret_key = "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"
+  access_key = "AKIARZYHMUYG4HYA5ZGK"
+  secret_key = "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"
   #shared_credentials_file = "${var.shared_credentials_file}"
   #profile = "${var.profile}"
 }
 
 
-
 resource "aws_instance" "new-server" {
+  count = 3
   ami = "${var.ami}"
   instance_type = "${var.instance_type}"
   availability_zone = "${var.availability_zone}"
@@ -31,8 +31,8 @@ resource "aws_instance" "new-server" {
     }
 
   tags = {
-    Name = "${var.server_name}"
-  }
+    Name = "${var.server_name}-${count.index + 1}"
+  } 
 }
 
 //module "key_pair" {
