@@ -3,15 +3,7 @@
  * Written by Arshad Zackeriya, May 2018
  */
 
-provider "aws" {
-  
-  region = "${var.region}"
-  access_key = "AKIARZYHMUYG4HYA5ZGK"
-  secret_key = "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"
-  #shared_credentials_file = "${var.shared_credentials_file}"
-  #profile = "${var.profile}"
-}
-/*
+
 
 /*data "aws_ami" "ami_id" {
   most_recent = true
