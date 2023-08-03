@@ -6,7 +6,15 @@
 ########################
 ## Print the outputs
 ########################
-output "public_ip" {
-  
-  value = "${aws_instance.new-server.*.public_ip}"
+/*output "public_ip" {
+  value = aws_instance.testserver.public_ip
 }
+
+
+/*value = {
+
+    for i,j in aws_instance.new-server :
+    i => j.public_ip
+
+ }
+}*/
